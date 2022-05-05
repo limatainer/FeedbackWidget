@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Eu posso declarar isso direto na tag ou chamar aqui tanto faz
+
+.button{@apply bg-orange-400 px-4 h-10 rounded text-orange-100 hover:bg-violet-400 transition-colors}
+*/
+
+body{
+  @apply bg-[#09090A] text-zinc-100
+}
